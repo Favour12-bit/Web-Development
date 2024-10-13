@@ -1,0 +1,43 @@
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    color: beige;
+    padding: 20px 30px;
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+
+}
+
+.searchInput::placeholder
+{
+    color: lightgrey;
+    
+}
+.limitedoffer{
+    font-size: 20px;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
